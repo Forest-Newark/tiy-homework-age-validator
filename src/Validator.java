@@ -10,13 +10,13 @@ public class Validator {
         try {
             i = Double.parseDouble(str);
             try {
-                 x = Integer.parseInt(str);
-            }catch (Exception e) {
+                x = Integer.parseInt(str);
+            } catch (Exception e) {
                 System.out.println("Age must be an integer");
                 return false;
             }
 
-        }catch (Exception e) {
+        } catch (Exception e) {
             System.out.println("Age must be a number.");
             return false;
         }
